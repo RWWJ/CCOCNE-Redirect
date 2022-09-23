@@ -32,7 +32,7 @@ function redirect( ) {
   }
   else {
 //    window.location.href = "https://www.RipsPics.com"; // For Debug
-    window.location.replace( "https://www.NewEnglandCameraClub.com" ); // User can NOT go back to previous page
+    window.location.replace( "https://www.NewEnglandCameraClub.org" ); // User can NOT go back to previous page
   }
 }
 
