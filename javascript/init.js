@@ -31,8 +31,8 @@ function redirect( ) {
     Timer = setTimeout( redirect, 1000 );
   }
   else {
-//    window.location.replace( "https://www.NewEnglandCameraClub.org" ); // User can NOT go back to previous page
-    window.location.replace( "http://www.NewEnglandCameraClub.org" ); // User can NOT go back to previous page
+    window.location.replace( "https://www.NewEnglandCameraClub.org" ); // User can NOT go back to previous page
+//    window.location.replace( "http://www.NewEnglandCameraClub.org" ); // NOT SSL - User can NOT go back to previous page
   }
 }
 
