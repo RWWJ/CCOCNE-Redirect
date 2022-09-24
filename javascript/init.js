@@ -31,8 +31,8 @@ function redirect( ) {
     Timer = setTimeout( redirect, 1000 );
   }
   else {
-//    window.location.href = "https://www.RipsPics.com"; // For Debug
-    window.location.replace( "https://www.NewEnglandCameraClub.org" ); // User can NOT go back to previous page
+//    window.location.replace( "https://www.NewEnglandCameraClub.org" ); // User can NOT go back to previous page
+    window.location.replace( "http://www.NewEnglandCameraClub.org" ); // User can NOT go back to previous page
   }
 }
 
